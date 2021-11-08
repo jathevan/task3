@@ -2,45 +2,19 @@
 {
     public class Data
     {
-          public string name { get; set; }
-           public double totalPrice { get; set; }
-
-           public int maxPassengers { get; set; }
-
-        
-   
- 
-        /* public double  pricePerPassenger { get; set; }*/
-
-        /*     public Data(string name, double pricePerPassenger, double totalPrice)
-             {
-                 this.name = name;
-
-                 this.pricePerPassenger = pricePerPassenger;
-                 this.totalPrice = totalPrice;
-             }*/
+        public string Name { get; set; }
+        public double TotalPrice { get; set; }
+        public int MaxPassengers { get; set; }
 
         public Data()
         {
-            
-        }
-        public Data(string name, double totalPrice , int maxPassengers)
-        {
-
-            this.name = name;
-
-            this.totalPrice = totalPrice;
-            this.maxPassengers = maxPassengers;
-          
         }
 
-     /*   public Data(string message) : this()
+        public Data(string name, double totalPrice, int maxPassengers)
         {
-
-            this.message = message;
-
-           
-
-        }*/
+            this.Name = name;
+            this.TotalPrice = totalPrice;
+            this.MaxPassengers = maxPassengers;
+        }
     }
 }
